@@ -1,0 +1,22 @@
+/** @format */
+
+.projectcontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin: 200px 0;
+	flex-direction: column;
+}
+.projectcontainer > h1 {
+	padding-bottom: 15px;
+}
+.projectcontainer > p {
+	padding-bottom: 20px;
+}
+.projectcontainer_project {
+	display: flex;
+	width: 80vw;
+	margin-top: 50px;
+	flex-wrap: wrap;
+}
